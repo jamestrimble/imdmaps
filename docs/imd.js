@@ -335,7 +335,7 @@
 
     function onMapLoad(imdConfig, map) {
         d3.select('#loading-msg').style('display', 'none');
-        var nav = new mapboxgl.Navigation({position: 'top-left'});
+        var nav = new mapboxgl.NavigationControl({position: 'top-left'});
         map.addControl(nav);
         map.addSource('zones', {'type': 'vector','url': imdConfig.tileset });
         createMapLayers(imdConfig, map);
