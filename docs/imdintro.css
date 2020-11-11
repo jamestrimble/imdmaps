@@ -1,0 +1,28 @@
+header {
+    margin-top: 10%;
+}
+
+a#ukde-link {
+    color: rgb(136, 46, 60);
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+h4 {
+    margin-top: 3.2rem;
+    margin-bottom: 1rem;
+}
+
+
+li {
+    list-style: none;
+}
+
+h5 {
+    font-variant: small-caps;
+    margin-bottom: .5rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
