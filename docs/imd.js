@@ -218,8 +218,8 @@
             minZoom: imdConfig.minZoom 
         });
         map.fitBounds(imdConfig.initialBounds);
-        //map.dragRotate.disable();
-        //map.touchZoomRotate.disableRotation();
+        map.dragRotate.disable();
+        map.touchZoomRotate.disableRotation();
         // map.addControl(new mapboxgl.Geocoder());
         return map;
     }
