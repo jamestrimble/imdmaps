@@ -219,6 +219,7 @@
         });
         map.fitBounds(imdConfig.initialBounds);
         map.dragRotate.disable();
+        map.touchZoomRotate.enable();
         map.touchZoomRotate.disableRotation();
         // map.addControl(new mapboxgl.Geocoder());
         return map;
